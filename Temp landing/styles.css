@@ -1,0 +1,75 @@
+
+
+
+h1 {
+font-family: 'UnifrakturMaguntia', cursive;
+font-size: 120PX;
+color: rgb(29, 26, 26);
+line-height: 1;
+max-width: 700px;
+/* text-shadow:4px 4px rgb(24, 224, 87); */
+margin-bottom: 20px;
+}
+
+span {
+font-size: 80px;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+color: rgb(36, 35, 31);
+margin: auto;
+max-width: 800px;
+}
+
+p {
+  font-weight: 400;
+  color: rgb(4, 4, 2);
+  line-height: 1.5;
+
+}
+
+
+li {
+   list-style-type: none;
+}
+
+img {
+  padding-bottom: 50px;
+}
+
+
+
+@media (max-width:800px) {
+  body {
+    font-size: 20px;
+    padding: 20px
+  }
+  h1 {
+    font-size: 60px;
+  }
+  span {
+  font-size: 35px;
+}
+}
+
+ /* unvisited link */
+ a:link {
+  color: rgb(24, 224, 87);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 91, 15);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(105, 115, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 89, 0);
+} 
